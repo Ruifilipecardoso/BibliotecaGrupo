@@ -4,6 +4,6 @@ public class SistemaLogin {
         if (utilizador == null || senha == null) {
             return false;
         }
-        return utilizador.equals("Bibliotecario") && senha.equals("Admin@2026");
+        return utilizador.equals("Bibliotecario") && senha.equals("Admin@2026!");
     }
 }
